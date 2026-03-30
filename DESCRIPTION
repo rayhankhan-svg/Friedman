@@ -1,0 +1,22 @@
+Package: Friedman
+Title: Tools for Organizing and Visualizing Educational Data
+Version: 0.0.0.9000
+Authors@R: 
+    person("Rayhan", "Khan", email = "rkhan@usf.com", role = c("aut", "cre"))
+Description: 
+    This package is designed to help users organize, summarize, and visualize
+    educational and workplace data in R. The package will provide functions
+    for cleaning datasets, creating summary statistics, and generating simple
+    visualizations for analysis and reporting.
+Depends: 
+    R (>= 3.1.2)
+Imports: 
+    ggplot2,
+    dplyr
+License: CC0
+LazyData: true
+URL: https://github.com/rayhankhan-svg/Friedman
+BugReports: https://github.com/rayhankhan-svg/Friedman/issues
+Suggests: 
+    knitr,
+    rmarkdown
